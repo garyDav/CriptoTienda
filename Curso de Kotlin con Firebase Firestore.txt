@@ -1,0 +1,82 @@
+Puedes revisar y  las respuestas. Al terminar presiona “Calificar respuestas” para enviar las preguntas y conocer tu puntuación.
+1.
+¿Cuál es la forma correcta de llamar funciones propias al defenir una regla de seguridad?
+allow read, write: if signedInOrPublic()
+
+2.
+¿Cuál es la palabra usada para la creación de reglas?
+match
+
+3.
+¿Cuáles son las dos formas de lectura de datos de Firestore?
+Llamado de funcion y por notificación de un listener
+
+4.
+¿Cuál es el comando utilizado para permitir lectura de colecciones datos?
+allow list
+
+
+	5.
+	¿Cuál de los siguientes tipos de datos no es parte de Firestore?
+	Nulos
+	
+Si son parte:	
+	Valores nulos.
+	Valores booleanos.
+	Valores de números enteros y de coma flotante, en orden numérico.
+	Valores de fechas.
+	Valores de strings de texto.
+	Valores de bytes.
+	Referencias de Firestore.
+	Valores de puntos geográficos.
+
+6.
+¿Cuáles módulos de Firebase se utilizaron en este curso?
+Autenticación y Cloud Firestore
+
+7.
+¿Cuál es la clase que mantiene las referencias de los campos de cada criptomoneda?
+ViewHolder
+
+8.
+¿Cuál es la función que debo utilizar para observar cambios en el documento de la criptomoneda Bitcoin?
+reference.document("bitcoin").addSnapshotListener
+
+9.
+¿Cuál es la manera correcta de actualizar un campo de un documento?
+refrence.update("isValid", true)
+
+10.
+¿Cuál es el atributo de configuración del FirebaseFirestoreSettings para datos Offline?
+setPersistenceEnable(true)
+
+11.
+¿Cuál es la función para generar un número aleatorio en Kotlin?
+(1.. 10).random()
+
+	12.
+	¿Cuál es la manera de ordernar el resultado de una consulta por "country"?
+	citiesRef.whereGreaterThan("population", 10000).orderAsc("countries")
+orderBy
+
+13.
+¿Cuál es el nombre de la clase del módulo de autenticación en Firebase?
+FirebaseAuth
+
+	14.
+	¿Cuál es el nombre del archivo para configurar Firestore en un proyecto Android?
+	AndroidManifest.xml
+google-services.json
+
+15.
+¿Cuál componente es el encargado de realizar la comunicación con Firebase?
+FirebaseService
+
+	16.
+	¿Cuáles la forma correcta de crear un documento "BOG" en la colección "cities" ?
+	db.collection("cities").document("BOG").add(cityValue)
+db.collection("cities").document("BOG").set(cityValue)
+
+17.
+¿Cuáles son las dos estructuras del modelo de datos de Firestore?
+Documentos y Colecciones

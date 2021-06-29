@@ -6,9 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".TraderActivity">
 
-
     <TextView
-        android:id="@+id/usernameTextView"
+        android:id="@+id/tvTraderUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -29,7 +28,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:orientation="vertical"
-        app:layout_constraintStart_toEndOf="@+id/usernameTextView"
+        app:layout_constraintStart_toEndOf="@+id/tvTraderUsername"
         app:layout_constraintTop_toTopOf="parent" />
 
 
