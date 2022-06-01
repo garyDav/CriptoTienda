@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "579364841122",
-    "project_id": "critpotienda",
-    "storage_bucket": "critpotienda.appspot.com"
+    "project_number": "460686695186",
+    "project_id": "cripto-trader-946ad",
+    "storage_bucket": "cripto-trader-946ad.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:579364841122:android:fa78a6d45993be445e59fb",
+        "mobilesdk_app_id": "1:460686695186:android:e7251b9baffe2eeb91f1cb",
         "android_client_info": {
           "package_name": "com.example.criptotienda"
         }
       },
       "oauth_client": [
         {
-          "client_id": "579364841122-mg5gounoeje3ro6k55a97qnj9tskkd26.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.criptotienda",
-            "certificate_hash": "d920dc16702ba4a3f8af0dcda90e69b30df79f4d"
-          }
-        },
-        {
-          "client_id": "579364841122-b534p67n3ff5kgfl0f36min5ajm0gj6i.apps.googleusercontent.com",
+          "client_id": "460686695186-2glo95nnq39b08lpli8feedqj6r5r3fq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBLKU6z0yg7R-Y49AngSMU1644Dqk1e074"
+          "current_key": "AIzaSyDo3SwzoOqDeGIhZ3h_N4T7oQcqVX2QDB8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "579364841122-b534p67n3ff5kgfl0f36min5ajm0gj6i.apps.googleusercontent.com",
+              "client_id": "460686695186-2glo95nnq39b08lpli8feedqj6r5r3fq.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
